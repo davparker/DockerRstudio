@@ -4,3 +4,9 @@ I pieced this together from other Dockerfiles around the web for my particular n
 A good starting point.
 
 Basically includes R and RStudio on Ubuntu.
+
+The only port exposed is tcp/8787, it maps to RStudio server's tcp/8787 port.
+
+The default login is: 
+  (username / password)
+  rstudio / rstudio
